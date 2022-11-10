@@ -1,0 +1,111 @@
+body{
+    background-color: beige;
+    animation-name: Fondo;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Fondo {
+    0%{background-color: azure;}
+    25%{background-color: chartreuse;}
+    50%{background-color: darkseagreen;}
+    75%{background-color: aliceblue;}
+    100%{background-color: beige;}    
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 30%;
+    border-width: 3px;
+    position: relative;
+    animation-name: Cuadrado;
+    animation-duration: 10s;
+
+}
+
+@keyframes Cuadrado {
+    0%{background-color: azure;left: 0px; top:0%;}
+    25%{background-color: chartreuse;left: 200px; top:0%;}
+    50%{background-color: darkseagreen; left: 200px; top:200%;}
+    75%{background-color: aliceblue; left: 0px; top:200%;}
+    100%{background-color: beige; left: 0px; top:200%;}    
+}
+
+nav{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(196, 169, 222);
+    border-radius: 50%;
+    border-width: 3px;
+    position: relative;
+    animation-name: Circulo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Circulo {
+    0%{background-color: azure;left: 0px; top:0px;}
+    25%{background-color: chartreuse;left: 400px; top:0px;}
+    50%{background-color: darkseagreen; left: 400px; top:400px;}
+    75%{background-color: aliceblue; left: 0px; top:400px;}
+    100%{background-color: beige; left: 0px; top:0px;}
+}
+
+.Batman{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    animation-name: Batman;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes Batman {
+    0%{top: 200px; left:200px}
+    25%{top: 0px;left: 0px;}
+    50%{top: 200px; left:200px}
+    75%{top: 200px; left: 0px;}
+    100%{top: 0px; left:200px}
+}
+
+p{
+    animation-name: texto;
+    animation-duration: 3s;
+}
+
+@keyframes texto {
+    0%{
+        margin-left: 100%;
+        width: 300%;
+        font-family: fantasy;
+        font-size: small;
+    }
+
+    50%{
+        margin-left: 50%;
+        width: 200%;
+        font-family: sans-serif;
+        font-size:large;
+        color: blueviolet;
+    }
+    
+    100%{
+        margin-left: 0%;
+        width: 100%;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        color: aliceblue;
+    }
+
+    
+}
+
+
+
+
+
+
+
